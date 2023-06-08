@@ -2,6 +2,8 @@
 // Helps to find -ve cycle
 // take edges in any order
 // relax all edges n-1 times
+// complexity -> EV
+
 #include <bits/stdc++.h>
 using namespace std;
 
