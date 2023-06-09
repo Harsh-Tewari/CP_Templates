@@ -3,6 +3,7 @@ using namespace std;
 
 class DisjointSet
 {
+public:
     vector<int> rank, parent, sizearr;
 
     DisjointSet(int n)
@@ -20,11 +21,9 @@ class DisjointSet
 
     int findUParent(int x)
     {
-        while (x != parent[x])
-        {
-            x = parent[x];
-        }
-        return x;
+        if (x = parent[x])
+            return x;
+        return parent[x] = findUParent(parent[x]);
     }
 
     void unionByRank(int u, int v)
