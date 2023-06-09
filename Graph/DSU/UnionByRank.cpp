@@ -46,7 +46,7 @@ public:
         else
         {
             parent[pv] = pu;
-            rank[pv]++;
+            rank[pu]++;
         }
     }
 
