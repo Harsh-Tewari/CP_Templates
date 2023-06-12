@@ -21,7 +21,7 @@ public:
 
     int findUParent(int x)
     {
-        if (x = parent[x])
+        if (x == parent[x])
             return x;
         return parent[x] = findUParent(parent[x]);
     }
