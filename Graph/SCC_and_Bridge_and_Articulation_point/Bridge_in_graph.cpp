@@ -3,6 +3,8 @@
 // Upon ending the recursion call from a node, update its low to lowest of all neighbours except the parent
 // if parent has a reaching time less than low of child, the edge is a bridge
 // defined for a undirected connected graph or for dir conn graph with all duplex edges
+// sc=>v+2e+3n
+// tc=>v+2e
 
 #include <bits/stdc++.h>
 using namespace std;
