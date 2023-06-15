@@ -9,7 +9,6 @@ using namespace std;
 struct node
 {
     node *links[2];
-    bool ending = false;
 };
 class Trie
 {
@@ -37,7 +36,6 @@ public:
                 temp = temp->links[x];
             }
         }
-        temp->ending = true;
     }
 
     int xorMax(int num)
