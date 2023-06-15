@@ -1,6 +1,7 @@
 // Stores each no. in form of 32 bits
 // bits can be changed by changing the no.
 // xorMax can give us max xor with a no. form the array inserted in a trie with the target no.
+// for each bit of the target check if the opposite bit exists in trie at that index
 
 #include <bits/stdc++.h>
 using namespace std;
